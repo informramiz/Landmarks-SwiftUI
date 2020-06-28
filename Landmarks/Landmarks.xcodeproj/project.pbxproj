@@ -103,15 +103,14 @@
 		B460EA8224A83D51008B676D /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				B470A4F224A918FC00D1D253 /* Resources */,
 				B460EA8324A83D51008B676D /* AppDelegate.swift */,
-				B460EA8524A83D51008B676D /* SceneDelegate.swift */,
-				B460EA8724A83D51008B676D /* ContentView.swift */,
-				B460EAB324A842DD008B676D /* CircleImage.swift */,
+				B470A4EF24A9151C00D1D253 /* Model */,
+				B470A4F124A9157E00D1D253 /* View */,
+				B470A4F024A9153800D1D253 /* Custom Views */,
 				B460EA8924A83D52008B676D /* Assets.xcassets */,
-				B460EA8E24A83D52008B676D /* LaunchScreen.storyboard */,
 				B460EA9124A83D52008B676D /* Info.plist */,
 				B460EA8B24A83D52008B676D /* Preview Content */,
-				B460EAB524A8446D008B676D /* MapView.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -140,6 +139,39 @@
 				B460EAA724A83D52008B676D /* Info.plist */,
 			);
 			path = LandmarksUITests;
+			sourceTree = "<group>";
+		};
+		B470A4EF24A9151C00D1D253 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B470A4F024A9153800D1D253 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				B460EAB324A842DD008B676D /* CircleImage.swift */,
+				B460EAB524A8446D008B676D /* MapView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		B470A4F124A9157E00D1D253 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B460EA8524A83D51008B676D /* SceneDelegate.swift */,
+				B460EA8724A83D51008B676D /* ContentView.swift */,
+				B460EA8E24A83D52008B676D /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B470A4F224A918FC00D1D253 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
