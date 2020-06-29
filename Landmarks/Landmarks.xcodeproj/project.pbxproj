@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		B460EA8424A83D51008B676D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B460EA8324A83D51008B676D /* AppDelegate.swift */; };
 		B460EA8624A83D51008B676D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B460EA8524A83D51008B676D /* SceneDelegate.swift */; };
-		B460EA8824A83D51008B676D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B460EA8724A83D51008B676D /* ContentView.swift */; };
+		B460EA8824A83D51008B676D /* LandmarkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B460EA8724A83D51008B676D /* LandmarkDetailView.swift */; };
 		B460EA8A24A83D52008B676D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B460EA8924A83D52008B676D /* Assets.xcassets */; };
 		B460EA8D24A83D52008B676D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B460EA8C24A83D52008B676D /* Preview Assets.xcassets */; };
 		B460EA9024A83D52008B676D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B460EA8E24A83D52008B676D /* LaunchScreen.storyboard */; };
@@ -56,7 +56,7 @@
 		B460EA8024A83D51008B676D /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B460EA8324A83D51008B676D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B460EA8524A83D51008B676D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B460EA8724A83D51008B676D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B460EA8724A83D51008B676D /* LandmarkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetailView.swift; sourceTree = "<group>"; };
 		B460EA8924A83D52008B676D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B460EA8C24A83D52008B676D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B460EA8F24A83D52008B676D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -196,7 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				B460EA8524A83D51008B676D /* SceneDelegate.swift */,
-				B460EA8724A83D51008B676D /* ContentView.swift */,
+				B460EA8724A83D51008B676D /* LandmarkDetailView.swift */,
 				B460EA8E24A83D52008B676D /* LaunchScreen.storyboard */,
 			);
 			path = View;
@@ -378,7 +378,7 @@
 				B460EAB424A842DD008B676D /* CircleImage.swift in Sources */,
 				B460EAB624A8446D008B676D /* MapView.swift in Sources */,
 				B460EA8624A83D51008B676D /* SceneDelegate.swift in Sources */,
-				B460EA8824A83D51008B676D /* ContentView.swift in Sources */,
+				B460EA8824A83D51008B676D /* LandmarkDetailView.swift in Sources */,
 				B470A51124AA869B00D1D253 /* ImageStore.swift in Sources */,
 				B470A50F24AA867E00D1D253 /* Landmark.swift in Sources */,
 				B470A51424AA86E000D1D253 /* AppData.swift in Sources */,
