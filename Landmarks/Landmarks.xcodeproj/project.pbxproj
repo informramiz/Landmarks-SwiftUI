@@ -197,9 +197,9 @@
 		B470A4F124A9157E00D1D253 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B470A51824AA8E1600D1D253 /* Landmark Detail */,
 				B470A51524AA898E00D1D253 /* Main */,
 				B460EA8524A83D51008B676D /* SceneDelegate.swift */,
-				B460EA8724A83D51008B676D /* LandmarkDetailView.swift */,
 				B460EA8E24A83D52008B676D /* LaunchScreen.storyboard */,
 			);
 			path = View;
@@ -239,6 +239,14 @@
 				B470A51624AA89A300D1D253 /* LandmarkRow.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		B470A51824AA8E1600D1D253 /* Landmark Detail */ = {
+			isa = PBXGroup;
+			children = (
+				B460EA8724A83D51008B676D /* LandmarkDetailView.swift */,
+			);
+			path = "Landmark Detail";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
