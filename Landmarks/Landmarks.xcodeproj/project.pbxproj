@@ -30,6 +30,9 @@
 		B470A50A24A91A1800D1D253 /* lakemcdonald.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B470A4FD24A91A1800D1D253 /* lakemcdonald.jpg */; };
 		B470A50B24A91A1800D1D253 /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B470A4FE24A91A1800D1D253 /* rainbowlake.jpg */; };
 		B470A50C24A91A1800D1D253 /* silversalmoncreek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B470A4FF24A91A1800D1D253 /* silversalmoncreek.jpg */; };
+		B470A50F24AA867E00D1D253 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B470A50E24AA867E00D1D253 /* Landmark.swift */; };
+		B470A51124AA869B00D1D253 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B470A51024AA869B00D1D253 /* ImageStore.swift */; };
+		B470A51424AA86E000D1D253 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B470A51324AA86E000D1D253 /* AppData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +82,9 @@
 		B470A4FD24A91A1800D1D253 /* lakemcdonald.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lakemcdonald.jpg; sourceTree = "<group>"; };
 		B470A4FE24A91A1800D1D253 /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
 		B470A4FF24A91A1800D1D253 /* silversalmoncreek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = silversalmoncreek.jpg; sourceTree = "<group>"; };
+		B470A50E24AA867E00D1D253 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		B470A51024AA869B00D1D253 /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		B470A51324AA86E000D1D253 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +176,9 @@
 		B470A4EF24A9151C00D1D253 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B470A50D24AA862900D1D253 /* Models */,
+				B470A51324AA86E000D1D253 /* AppData.swift */,
+				B470A51024AA869B00D1D253 /* ImageStore.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -211,6 +220,14 @@
 				B470A4FB24A91A1800D1D253 /* yukon_charleyrivers.jpg */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		B470A50D24AA862900D1D253 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B470A50E24AA867E00D1D253 /* Landmark.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,6 +379,9 @@
 				B460EAB624A8446D008B676D /* MapView.swift in Sources */,
 				B460EA8624A83D51008B676D /* SceneDelegate.swift in Sources */,
 				B460EA8824A83D51008B676D /* ContentView.swift in Sources */,
+				B470A51124AA869B00D1D253 /* ImageStore.swift in Sources */,
+				B470A50F24AA867E00D1D253 /* Landmark.swift in Sources */,
+				B470A51424AA86E000D1D253 /* AppData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
