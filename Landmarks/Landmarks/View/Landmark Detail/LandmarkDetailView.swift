@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct LandmarkDetailView: View {
+    var landmark: Landmark
+    
     var body: some View {
         VStack {
             MapView()
@@ -19,13 +21,13 @@ struct LandmarkDetailView: View {
                 .padding(.bottom, -130)
             
             VStack(alignment: .leading) {
-                Text("Turtle Rock")
+                Text(landmark.name)
                     .font(.title)
                 HStack {
-                    Text("Joshua State National Park")
+                    Text(landmark.park)
                         .font(.subheadline)
                     Spacer()
-                    Text("California")
+                    Text(landmark.state)
                         .font(.subheadline)
                 }
             }
@@ -37,6 +39,6 @@ struct LandmarkDetailView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        LandmarkDetailView()
+        LandmarkDetailView(landmark: AppData.landmarkData[0])
     }
 }
