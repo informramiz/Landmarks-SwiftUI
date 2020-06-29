@@ -33,6 +33,7 @@
 		B470A50F24AA867E00D1D253 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B470A50E24AA867E00D1D253 /* Landmark.swift */; };
 		B470A51124AA869B00D1D253 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B470A51024AA869B00D1D253 /* ImageStore.swift */; };
 		B470A51424AA86E000D1D253 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B470A51324AA86E000D1D253 /* AppData.swift */; };
+		B470A51724AA89A300D1D253 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B470A51624AA89A300D1D253 /* LandmarkRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		B470A50E24AA867E00D1D253 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		B470A51024AA869B00D1D253 /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
 		B470A51324AA86E000D1D253 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		B470A51624AA89A300D1D253 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 		B470A4F124A9157E00D1D253 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B470A51524AA898E00D1D253 /* Main */,
 				B460EA8524A83D51008B676D /* SceneDelegate.swift */,
 				B460EA8724A83D51008B676D /* LandmarkDetailView.swift */,
 				B460EA8E24A83D52008B676D /* LaunchScreen.storyboard */,
@@ -228,6 +231,14 @@
 				B470A50E24AA867E00D1D253 /* Landmark.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		B470A51524AA898E00D1D253 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B470A51624AA89A300D1D253 /* LandmarkRow.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,6 +393,7 @@
 				B470A51124AA869B00D1D253 /* ImageStore.swift in Sources */,
 				B470A50F24AA867E00D1D253 /* Landmark.swift in Sources */,
 				B470A51424AA86E000D1D253 /* AppData.swift in Sources */,
+				B470A51724AA89A300D1D253 /* LandmarkRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
