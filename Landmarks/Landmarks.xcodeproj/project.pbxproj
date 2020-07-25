@@ -36,6 +36,7 @@
 		B470A51424AA86E000D1D253 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B470A51324AA86E000D1D253 /* AppData.swift */; };
 		B470A51724AA89A300D1D253 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B470A51624AA89A300D1D253 /* LandmarkRow.swift */; };
 		B470A51A24AA8FC900D1D253 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B470A51924AA8FC900D1D253 /* LandmarkList.swift */; };
+		B4DCA47624CCA1C500559DCF /* ObservableUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DCA47524CCA1C500559DCF /* ObservableUserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		B470A51324AA86E000D1D253 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
 		B470A51624AA89A300D1D253 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		B470A51924AA8FC900D1D253 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		B4DCA47524CCA1C500559DCF /* ObservableUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableUserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				B470A50D24AA862900D1D253 /* Models */,
+				B4DCA47524CCA1C500559DCF /* ObservableUserData.swift */,
 				B470A51324AA86E000D1D253 /* AppData.swift */,
 				B470A51024AA869B00D1D253 /* ImageStore.swift */,
 			);
@@ -402,6 +405,7 @@
 			files = (
 				B460EA8424A83D51008B676D /* AppDelegate.swift in Sources */,
 				B460EAB424A842DD008B676D /* CircleImage.swift in Sources */,
+				B4DCA47624CCA1C500559DCF /* ObservableUserData.swift in Sources */,
 				B460EAB624A8446D008B676D /* MapView.swift in Sources */,
 				B460EA8624A83D51008B676D /* SceneDelegate.swift in Sources */,
 				B460EA8824A83D51008B676D /* LandmarkDetailView.swift in Sources */,
